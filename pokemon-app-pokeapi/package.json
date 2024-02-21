@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://azmvrk.github.io/React-PokeApi",
+  "homepage": "https://azmvrk.github.io/React-PokeApi/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

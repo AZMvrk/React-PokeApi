@@ -92,7 +92,7 @@ button {
   margin: 1rem;
   padding: 1rem;
   background-color: rgb(218, 0, 0);
-  background-image: url('pokedex.jpg');
+  background-image: url('.pokedex.jpg');
   background-size: 100% 100%;
   background-position: center;
   border-radius: 20px;
@@ -124,7 +124,7 @@ button {
   margin: 1rem;
   height: 25rem;
   width: 45rem;
-  background-image: url('attackBackground-dark.jpg');
+  background-image: url('.attackBackground-dark.jpg');
   background-size: 100% 100%;
   background-position: center;
   border: 5px solid rgb(179, 174, 178);
@@ -219,7 +219,7 @@ button {
 }
 
 .userPokemonPicture{
-  background-image: url('usersBackground.jpg');
+  background-image: url('.usersBackground.jpg');
   background-size: 250% 100%;
   background-position: center;
 }
@@ -275,6 +275,12 @@ button:hover {
 }
 
 @media only screen and (max-width: 650px) {
+
+  #root{
+    display: flex;
+    justify-content: center;
+  }
+
   .pokedex {
     height: 450px;
     width: 350px;
@@ -293,6 +299,41 @@ button:hover {
   .won, .lost {
     font-size: 1rem;
     padding-bottom: 2rem;
+  }
+
+  .allUsersPokemon {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #root{
+    display: flex;
+    justify-content: center;
+  }
+
+  .pokedex {
+    height: 450px;
+    width: 350px;
+  }
+  .pokedexInfos {
+    max-width: 350px;
+    font-size: 0.55rem;
+    padding-top: 7rem;
+    padding-left: 1rem;
+  }
+  .attack {
+    width: 95vw;
+    text-align: center;
+    gap: 2rem;
+  }
+  .won, .lost {
+    font-size: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .allUsersPokemon {
+    margin: 0;
   }
 }
 
